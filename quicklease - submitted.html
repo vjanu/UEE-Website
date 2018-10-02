@@ -34,7 +34,7 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-    padding: 15px;
+    padding: 18px;
     text-align: left;
 }
 table#t01 tr:nth-child(even) {
@@ -46,6 +46,9 @@ table#t01 tr:nth-child(odd) {
 table#t01 th {
     background-color: white;
     color: black;
+}
+td{
+color: blue;
 }
 </style>
 
@@ -105,9 +108,9 @@ table#t01 th {
     <th>Your District</th>
   </tr>
   <tr>
-    <td>Sunil perera</td>
-    <td>0771254567</td>
-    <td>Matara</td>
+    <td align="center">Sunil perera</td>
+    <td align="center">0771254567</td>
+    <td align="center">Matara</td>
   </tr>
   
 </table>
@@ -115,10 +118,10 @@ table#t01 th {
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-6">
       <input type="button" class="btn btn-success " value="Modify Information" id="btn-modify">
     </div>
-    <div class="col">
+    <div class="col-6">
       <input type="button" class="btn btn-primary qsubmit-data-btn" value="Submit Information" id="btn-submit">
     </div>
   </div>
